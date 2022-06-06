@@ -1,0 +1,113 @@
+.hero{
+    width: 100%;
+    height: 800px;
+    background-image: url('../public/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+.hero_h1{
+    font-size: 8rem;
+    color: white;
+    /* font-family: 'Koulen', cursive; */
+    line-height: 0.85;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.hero_h4{
+    font-size: 1rem;
+    color: white;
+}
+
+.hero_span{
+    font-size: 1.4rem;
+    line-height: 1.2;
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.best{
+    margin-left: 23rem;
+}
+.agency{
+    margin-left: 40rem;
+}
+
+.ooo::before{
+    content: '';
+    display: inline-block;
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    background: rgb(116,50,242);
+    background: linear-gradient(90deg, rgb(0, 174, 240) 0%, rgb(241, 98, 33) 100%);
+}
+
+.decor{
+    border: 1rem solid #919191;
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+}
+.round{
+    border-radius: 50%;
+    right: 12rem;
+    top: -8rem;
+}
+.square{
+    transform: rotate(45deg);
+}
+
+
+
+
+
+@media only screen and (max-width: 860px) {
+    .hero{
+        height: 600px;
+    }
+    .hero_h1{
+        font-size: 4rem;
+    }
+    .best{
+        margin-left: 3rem;
+    }
+    .agency{
+        margin-left: 4rem;
+    }
+    .ooo::before{
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+    .hero_span{
+        font-size: 1rem;
+        line-height: 0;
+        padding-left: 1rem;
+        font-family: 'Roboto', sans-serif;
+        display: none;
+    }
+    .decor{
+        border: 1rem solid #919191;
+        display: inline-block;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .round{
+        border-radius: 50%;
+        right: 0;
+        top: -10rem;
+    }
+    .square{
+        /* top: 1rem; */
+        margin-top: 3rem;
+    }
+}
