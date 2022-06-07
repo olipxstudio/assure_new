@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import Bottom from '../components/Bottom'
+import Link from 'next/link'
 
 export default function Home() {
     const { theme } = useTheme();
@@ -36,7 +37,7 @@ export default function Home() {
                             <div className={`${styles.det_part_body} ${styles.about}`}>
                                 <p>We are a conveyancing team who works together with pride to bring out the best of our abilities in die world of IT & Technology. We care for our customers and help wherever we can. We believe with hard work comes great achievements.</p>
                                 
-                                <a href='#'>About Us</a>
+                                <Link href='/about'>About Us</Link>
                             </div>
                             <div className={`${styles.det_part_footer}  ${styles.flex}  ${styles.justify}`}>
                                 <h1>COMPUTER NETWORKING</h1>
@@ -58,7 +59,7 @@ export default function Home() {
                                 <h1>We pride ourselves in proactive IT solutions & comprehensive support.</h1>
                                 <p>We just happen to provide excellent IT Service.</p>
                                 
-                                <a href='#'>Services</a>
+                                <Link href='/services'>Services</Link>
                             </div>
                         </section>
                     </div>
@@ -73,7 +74,7 @@ export default function Home() {
                         <section className={`${styles.det_part} ${styles.leverage}`}>
                             <div className={styles.det_part_body}>
                                 <h1>Leveraging Technology</h1>
-                                <a href='#'>Leveraging Technology</a>
+                                <Link href='/leveragingtech'>Leveraging Technology</Link>
                             </div>
                         </section>
                     </div>
@@ -94,7 +95,7 @@ export default function Home() {
                                     <li>Providing Priority Support whenever required outside of scheduled monthly visits.</li>
                                     <li>Access to a permanent Helpdesk, providing ongoing and continued Remote.</li>
                                 </ul>
-                                <a href='#'>OUR SLA</a>
+                                <Link href='/sla'>OUR SLA</Link>
                             </div>
                         </section>
                     </div>
