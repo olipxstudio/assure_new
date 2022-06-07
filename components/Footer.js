@@ -17,7 +17,7 @@ export default function Footer(){
                         </ul>
                     </div>
                     <div className='connects'>
-                        <h4>Connect with us</h4>
+                        <h4>Lets Connect</h4>
                         <div>
                             <a href=''>
                                 <Image src={"/logo-facebook.svg"} alt="" width={25} height={25}/>
