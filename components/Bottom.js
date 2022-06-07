@@ -1,4 +1,5 @@
 import styles from '../styles/bottom.module.css'
+import Link from 'next/link'
 
 export default function Bottom(){
     return (
@@ -9,7 +10,7 @@ export default function Bottom(){
                 <h1 className={`${styles.hero_h1}  ${styles.agency}`}>TO GET STARTED</h1>
             </div>
             
-            <a href='#' className='button'>Contact Us</a>
+            <Link href='/contact' className='button'>Contact Us</Link>
         </div>
     )
 }
