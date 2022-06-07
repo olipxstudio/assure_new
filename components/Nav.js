@@ -23,7 +23,9 @@ export default function Nav(){
                 <li><Link href="/sla" className="">SLA</Link></li>
                 <li><Link href="/leveragingtech" className="">Leveraging Technology</Link></li>
             </ul>
-            <Button color="gradient" className='btn_btn' rounded auto>Contact Us</Button>
+            <Button color="gradient" className='btn_btn' rounded auto>
+                <Link href='/contact'>Contact Us</Link>
+            </Button>
             <div className="toggle" onClick={toggleNav}>
                 <span></span>
                 <span></span>
