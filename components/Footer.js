@@ -14,6 +14,7 @@ export default function Footer(){
                             <li><Link href='/services'>Services</Link></li>
                             <li><Link href='/sla'>SLA</Link></li>
                             <li><Link href='/leveragingtech'>Leveraging Technology</Link></li>
+                            <li><Link href='/contact'>Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className='connects'>
