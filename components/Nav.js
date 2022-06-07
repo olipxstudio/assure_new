@@ -13,6 +13,10 @@ export default function Nav(){
         <header className={`container`}>
             <Image src={"/Assure-Biz-logo-wh.png"} alt="" width={230} height={60} />
             <ul className={`${styles.txt_white} ${styles.flex} ${styles.justify}`} style={{display:display}}>
+                <div className="close_btn" onClick={toggleNav}>
+                    <span></span>
+                    <span></span>
+                </div>
                 <li><Link href="/" className="">Home</Link></li>
                 <li><Link href="/about" className="">About Us</Link></li>
                 <li><Link href="/services" className="">Services</Link></li>
@@ -20,7 +24,7 @@ export default function Nav(){
                 <li><Link href="/leveragingtech" className="">Leveraging Technology</Link></li>
             </ul>
             <Button color="gradient" className='btn_btn' rounded auto>Contact Us</Button>
-            <div className='toggle' onClick={toggleNav}>
+            <div className="toggle" onClick={toggleNav}>
                 <span></span>
                 <span></span>
             </div>
