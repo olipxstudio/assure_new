@@ -43,7 +43,7 @@ export default function About() {
                             <p>We are proud of how far we come and with the rapid rate that we are expanding we look forward to what our future in Assure industries and at Assure technologies looks like.</p>
                         </section>
                         <section>
-                            <Image src={"/techly.jpg"} alt="" width="500" height={700} />
+                            <Image src={"/techly.jpg"} alt="" layout="raw" width="500" height={700} />
                         </section>
                     </div>
                 </div>
