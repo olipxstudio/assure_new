@@ -1,6 +1,6 @@
 .hero{
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-image: url('../public/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +9,15 @@
     justify-content: center;
     position: relative;
     border-bottom: 1px solid #7A7A7A;
+    overflow: hidden;
+}
+
+.desktop{
+    margin-bottom: -7rem !important;
+    margin-top: 3rem;
+}
+.mobile{
+    display: none !important;
 }
 
 .hero_h1{
@@ -35,6 +44,7 @@
 
 .best{
     margin-left: 23rem;
+    margin-top: 7rem;
 }
 .agency{
     margin-left: 40rem;
@@ -74,11 +84,30 @@
     .hero{
         height: 600px;
     }
+    .container{
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
     .hero_h1{
         font-size: 4rem;
     }
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: block !important;
+        margin-bottom: -12rem !important;
+        margin-top: 4rem !important;
+        height: auto;
+        width: 108%;
+        max-width: 150%;
+        margin-left: -4%;
+    }
     .best{
         margin-left: 3rem;
+        margin-top: 0rem;
     }
     .agency{
         margin-left: 4rem;
@@ -95,7 +124,7 @@
         display: none;
     }
     .decor{
-        border: 1rem solid #919191;
+        border: 1rem solid #686868;
         display: inline-block;
         width: 6rem;
         height: 6rem;
