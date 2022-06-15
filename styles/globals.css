@@ -25,6 +25,55 @@ a {
     width: 60%;
 }
 
+.pt_1{
+    padding-top: 1rem;
+}
+.pt_15{
+    padding-top: 1.5rem;
+}
+.pt_2{
+    padding-top: 2rem;
+}
+.pt_25{
+    padding-top: 2.5rem;
+}
+.pt_3{
+    padding-top: 3rem;
+}
+.pt_4{
+    padding-top: 4rem;
+}
+.pt_5{
+    padding-top: 5rem;
+}
+.pt_6{
+    padding-top: 6rem;
+}
+.pb_1{
+    padding-bottom: 1rem;
+}
+.pb_15{
+    padding-bottom: 1.5rem;
+}
+.pb_2{
+    padding-bottom: 2rem;
+}
+.pb_25{
+    padding-bottom: 2.5rem;
+}
+.pb_3{
+    padding-bottom: 3rem;
+}
+.pb_4{
+    padding-bottom: 4rem;
+}
+.pb_5{
+    padding-bottom: 5rem;
+}
+.pb_6{
+    padding-bottom: 6rem;
+}
+
 .white{
     color: #ffffff;
 }
@@ -107,7 +156,7 @@ footer{
     border-bottom: 1px solid #7A7A7A;
 }
 .dual_section img{
-    border-radius: 1rem;
+    border-radius: 0.2rem;
 }
 .dual_section .container{
     display: flex;
@@ -119,8 +168,12 @@ footer{
     color: #ffffff;
 }
 .dual_section.white_bac .container section{
-    width: 50%;
+    width: 100%;
     color: #000000;
+}
+.dual_section.white_bac .container section img {
+    width: 100%;
+    height: auto;
 }
 .dual_section .container section.text{
     padding: 0 5rem;
@@ -245,6 +298,18 @@ header ul .close_btn{
   box-sizing: border-box;
 }
 
+
+.contact form{
+    text-align: center;
+}
+.contact form input, .contact form textarea{
+    width: 400px;
+    box-sizing: border-box;
+}
+.contact form button{
+    margin: 0 auto;
+    width: 400px;
+}
 
 
 @media only screen and (max-width: 860px) {
